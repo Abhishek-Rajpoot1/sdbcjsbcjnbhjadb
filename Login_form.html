@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border-bottom:black 3px solid;
+        }
+        form{ width: 365px;
+            height: 520px;
+            margin: auto;
+            /* border:2px solid green; */
+            border-image-source: linear-gradient(to right , rgb(141, 45, 45), green,yellow, rgb(5, 5, 184));
+            text-align: center;
+            border-style:solid;
+            border-image-slice: 1;
+            border-image-width: 5px;
+            
+        }
+        .input{
+            border-radius: 5px;
+        }
+        p{
+            height:50px;
+            width: 365px;
+            border-top: 2px solid red;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .abc{
+            width: 150px;
+            border-radius:20px;
+            
+        }
+        #submit{
+            background-color: rgba(11, 218, 11, 0.752);
+        }
+        #reset{
+            background-color: rgba(187, 5, 5, 0.838);
+        }
+        img{
+            border-radius: 50%;
+        }
+        #b{
+            padding-left:9px;
+        }
+    </style>
+</head>
+<body>
+   <form>
+    <h1>Login</h1>
+   <!-- <input type="file" height="60px" width="60px"> -->
+    <!-- <img src="abhi.jpg" height="60px" width="60px"><br><br><br> -->
+    <div>
+    <input type="text" placeholder="Enter student id" class="input">
+    <input type="text"placeholder="Enter roll_nomber"class="input"><br><br>
+    <input type="text" placeholder="Enter your name "class="input">
+    <input type="text" placeholder="Enter your class"class="input"><br><br>
+    <input type="text" placeholder="Enter your subject"class="input">
+    <input type="number" placeholder="Mobile number" class="input"><br><br>
+     <input type="email" placeholder="Enter email" class="input">
+     <input type="text" placeholder="Enter address" class="input"><br><br>
+      <b id="b">Upload rasult :</b><input type="file" class="input"><br><br>
+
+<lable for="city"><b>choose city :</b></lable>
+    <select name="city" id="city">
+    <option value="sitapur">Sitapur</option>
+    <option value="lakhimpur">Lakhimpur</option>
+    <option value="Lucknow">lucknow</option>
+    <option value="Agra">agra</option>
+    </select><br><br>
+<lable for="country"> <b>choose country :</b></lable>
+<select name="Country" id="country">
+  <option value="India"> India</option>
+  <option value="usa">USA</option>
+  <option value="uae">UAE</option>
+  <option value="russia">russia</option>
+
+</select><br><br>
+<p>
+<input type="submit" class="abc" id="submit">
+<input type="reset" class="abc" id="reset">
+<button>abh</button>
+</p>
+    </div>
+   </form> 
+</body>
+</html>
